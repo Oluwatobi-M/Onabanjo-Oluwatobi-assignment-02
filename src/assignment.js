@@ -30,7 +30,7 @@ const assignment = {};
 function countEvenNumbers(arrayOfNumbers) {
   let count = 0;
   for (let i =0; i < arrayOfNumbers.length; i++){
-    if (i === 0 || i % 2 !== 0){
+    if (arrayOfNumbers[i] === 0 || arrayOfNumbers[i] % 2 !== 0){
       count;
     }
     else{
